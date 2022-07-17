@@ -1,6 +1,6 @@
 <template>
   <!-- Header -->
-  <header class="w-full h-[15vh] flex items-center">
+  <header class="w-full h-[10vh] md:h-[15vh] flex items-center">
     <div class="flex items-center justify-between w-[90%] mx-auto">
       <div class="font-black text-[40px] text-primary lowercase">Piste</div>
       <nav>
