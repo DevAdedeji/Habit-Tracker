@@ -2,7 +2,7 @@
   <!-- Header -->
   <header class="w-full h-[10vh] md:h-[15vh] flex items-center">
     <div class="flex items-center justify-between w-[90%] mx-auto">
-      <div class="font-black text-[40px] text-primary lowercase">Piste</div>
+      <Logo />
       <nav>
         <ul class="flex items-center gap-6 text-[16px]">
           <li class="inline text-secondary hover:text-primary hover:font-black">
@@ -17,8 +17,11 @@
   </header>
 </template>
 
-<script>
-export default {};
+<script lang="ts">
+import Logo from "./Logo.vue";
+export default {
+  components: { Logo },
+};
 </script>
 
 <style>

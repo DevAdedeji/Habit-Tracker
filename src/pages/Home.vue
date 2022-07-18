@@ -1,5 +1,5 @@
 <template>
-  <main class="min-h-screen bg-[#E8E6F5] w-full">
+  <main class="min-h-screen bg-bgColor w-full">
     <Header />
     <Hero />
   </main>

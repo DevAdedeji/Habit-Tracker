@@ -1,14 +1,18 @@
 <template>
-  <section class="w-full h-[90vh] md:[85vh] flex items-center justify-center">
+  <section
+    class="w-full h-[90vh] md:[85vh] flex md:items-center justify-center"
+  >
     <div
       class="
         w-[90%]
         mx-auto
         flex flex-col
-        gap-16
         md:flex-row
+        pt-20
+        gap-6
+        md:pt-0
         items-center
-        justify-between
+        md:justify-between
       "
     >
       <!-- Hero-text -->
